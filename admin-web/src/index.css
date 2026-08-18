@@ -239,3 +239,29 @@ a {
   align-items: center;
   justify-content: center;
 }
+
+.sites-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.sites-table th,
+.sites-table td {
+  padding: 14px 12px;
+  border-bottom: 1px solid #252a33;
+  text-align: left;
+}
+
+.sites-table th {
+  color: #858d9a;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.sites-table td {
+  font-size: 14px;
+}
+
+.sites-table tbody tr:last-child td {
+  border-bottom: 0;
+}
