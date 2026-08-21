@@ -15,3 +15,12 @@ class SiteResponse(BaseModel):
     model_config = ConfigDict(
         from_attributes=True
     )
+
+class SiteCreate(BaseModel):
+    name: str
+    slug: str
+
+class SiteUpdate(BaseModel):
+    name: str | None = None
+    slug: str | None = None
+    status: str | None = None
