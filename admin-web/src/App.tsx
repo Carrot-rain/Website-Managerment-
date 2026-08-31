@@ -4,6 +4,7 @@ import AdminLayout from './layouts/AdminLayout'
 import Overview from './pages/Overview'
 import Sites from './pages/Sites'
 
+import RendererDemo from "./renderer/demo/RendererDemo";
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
         <Route path="/" element={<Overview />} />
         <Route path="/sites" element={<Sites />} />
       </Route>
+      <Route path="/renderer-demo" element={<RendererDemo />}/>
     </Routes>
-  )
+  );
 }
 
 

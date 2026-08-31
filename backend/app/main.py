@@ -47,7 +47,7 @@ def get_sites(db: Session = Depends(get_db)):
 # =========================
 # 创建 Site
 # =========================
-@app.post("/api/sites", response_model = SiteResponse, status_code= 201)
+@app.post("/api/sites", response_model = SiteResponse, status_code = 201)
 async def create_site(payload: SiteCreate, db: Session = Depends(get_db)):
     existing_site = db.scalar(
         select(Site).where(

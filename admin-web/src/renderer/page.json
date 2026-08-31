@@ -1,0 +1,37 @@
+{
+  "title": "My Website",
+
+  "blocks": [
+    {
+      "id": "hero-1",
+      "type": "hero",
+
+      "props": {
+        "title": "Welcome",
+        "subtitle": "This is my website"
+      }
+    },
+
+    {
+      "id": "feature-1",
+      "type": "feature",
+
+      "props": {
+        "items": [
+          "Fast",
+          "Simple",
+          "Powerful"
+        ]
+      }
+    },
+
+    {
+      "id": "footer-1",
+      "type": "footer",
+
+      "props": {
+        "text": "Copyright 2026"
+      }
+    }
+  ]
+}
